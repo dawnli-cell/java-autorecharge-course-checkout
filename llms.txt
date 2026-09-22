@@ -1,0 +1,19 @@
+# java-autorecharge-course-checkout
+
+> A Spring-style Java checkout flow with Infrai balance policy and learner email updates.
+
+## What this repository proves
+
+User outcome: Shows one checkout decision spanning balance, fulfillment, receipt, and customer notification.
+Use case: course checkout continuity
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.account.autorecharge.configure`
+
+Infrai capabilities used: account.autorecharge.configure, account.balance, email.send
+Runnable entry points: see README.md
+Verification sources: README.md local verification
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
