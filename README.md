@@ -48,3 +48,7 @@ The code is intentionally plain; before production, set up the following. The de
 - **Java Autorecharge Course Checkout:** By default mail is sent through a **shared** verified sender. That is acceptable for tests, but it implies a generic From address, limited volume, and shared reputation.
 - **Java Autorecharge Course Checkout:** For production, verify **your own** domain: `POST /v1/email/domain/verify` with `{"domain":"mail.yourco.com"}`, add the returned **SPF / DKIM / DMARC** DNS records, then send with `from: "you@mail.yourco.com"`.
 - **Java Autorecharge Course Checkout:** Use a dedicated subdomain and **warm it up** by increasing volume over several days, which helps preserve deliverability and keeps you within provider and compliance limits.
+
+## Further reading
+
+- [Transactional Email Deliverability Dashboard — Polling Sent, Delivered, and Bounced Events](docs/transactional-email-deliverability-dashboard-poll-i6dr36.md)
