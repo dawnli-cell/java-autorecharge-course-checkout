@@ -51,4 +51,5 @@ The code is intentionally plain; before production, set up the following. The de
 
 ## Further reading
 
+- [Signup App Controls: Suppress Bounced Users and Sync Email Hygiene Evidence](docs/signup-app-controls-suppress-bounced-users-and-sy-1w6ztg.md)
 - [Transactional Email Deliverability Dashboard — Polling Sent, Delivered, and Bounced Events](docs/transactional-email-deliverability-dashboard-poll-i6dr36.md)
